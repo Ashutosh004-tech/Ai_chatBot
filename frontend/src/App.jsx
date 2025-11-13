@@ -1,17 +1,20 @@
-import { useState } from 'react'
+import { useEffect, useState } from "react";
+import "./App.css";
+import axios from "axios";
+import Index from "./components";
+import ResponsiveAppBar from "./navbar";
+import Footer from "./Footer";
 
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
+      <ResponsiveAppBar/>
+      <Index/>
+      <Footer/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
