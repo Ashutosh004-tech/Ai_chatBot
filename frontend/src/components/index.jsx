@@ -108,8 +108,8 @@ export default function Index() {
     <Container maxWidth="md" sx={{ py: 4 }}>
       <Box sx={{ display: "flex", flexDirection: "column", height: "70vh" }}>
         {/* Header */}
-        <Typography variant="h4" sx={{ mb: 3, fontWeight: "bold" }}>
-          💬 AI Chat Assistant
+        <Typography variant="h5" sx={{ mb: 3, fontWeight: "bold" }}>
+          💬 kBot Chat Assistant
         </Typography>
 
         {/* Chat Messages Display */}

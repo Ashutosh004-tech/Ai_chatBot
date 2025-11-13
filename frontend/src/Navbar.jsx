@@ -40,7 +40,7 @@ function ResponsiveAppBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-            <SmartToyIcon/>
+            <SmartToyIcon sx={{letterSpacing:'.2rem'}}/>
           <Typography
             variant="h6"
             noWrap
